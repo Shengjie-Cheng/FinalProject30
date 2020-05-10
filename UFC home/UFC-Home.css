@@ -1,0 +1,170 @@
+/*body{
+    background-image: url(./imag/UFC.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  
+}*/
+.background-imag{
+    
+    position: absolute;
+    width:100%;
+    max-width: none;
+    height: 100%;
+    object-fit: cover;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+.words
+{
+    font-size: 32px;
+    font-weight:bold;
+    color: white;
+    letter-spacing: 0px;
+    position: absolute;
+    top:45%;
+    left:42%;
+    text-transform: uppercase;
+    font-family:Arial;
+
+}
+.words2
+{
+    font-size: 50px;
+    font-weight:bold;
+    color: white;
+    letter-spacing: 0px;
+    position: absolute;
+    top:50%;
+    left:33%;
+    text-transform: uppercase;
+    font-family:Arial;
+
+}
+.words3
+{
+    font-size: 60px;
+    font-weight:bold;
+    color: white;
+    letter-spacing: 0px;
+    position: absolute;
+    top:50%;
+    left:18%;
+    text-transform: uppercase;
+    font-family:Arial;
+
+}
+.title{
+    text-transform: uppercase;
+    color: #191919;
+    font-family: Arial,sans-serif;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+body{
+    -webkit-box-direction: normal;
+    background-color: teal;
+}
+.famous-fight1{
+   
+   
+    display: block;
+    padding:10px 15px;
+    margin-bottom: -1px;
+    border:1px solid teal;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    line-height: 19.99px;
+    width: 50%;
+}
+*{
+    box-sizing: border-box;
+
+}
+::after, ::before{
+    box-sizing:border-box;
+}
+.famous-fight .fighter img{
+    width:35%;
+   
+}
+.famous-fight .fighter img{
+    width:35%
+}
+
+.fighter {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    
+   
+}
+.image::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+h1{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-weight: bolder;
+}
+h2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bolder;
+}
+.pic{
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.player{
+    float:left;
+    width:33%;
+    font-weight: bolder;
+}
+.players{
+    float:center;
+    font-weight:bolder;
+}
+.rosy {
+	color: #fae7e9;
+	border: solid 1px #b73948;
+	background: #da5867;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f16c7c), to(#bf404f));
+	background: -moz-linear-gradient(top,  #f16c7c,  #bf404f);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f16c7c', endColorstr='#bf404f');
+}
+.rosy:hover {
+	background: #ba4b58;
+	background: -webkit-gradient(linear, left top, left bottom, from(#cf5d6a), to(#a53845));
+	background: -moz-linear-gradient(top,  #cf5d6a,  #a53845);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#cf5d6a', endColorstr='#a53845');
+}
+.rosy:active {
+	color: #dca4ab;
+	background: -webkit-gradient(linear, left top, left bottom, from(#bf404f), to(#f16c7c));
+	background: -moz-linear-gradient(top,  #bf404f,  #f16c7c);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#bf404f', endColorstr='#f16c7c');
+}
+
+
+.button:active {
+	position: relative;
+	top: 1px;
+}
+.medium {
+	font-size: 12px;
+	padding: .4em 1.5em .42em;
+}

@@ -1,0 +1,204 @@
+/*by Yue Yin "WEB CLIENT DEVELOPMENT Final-project 30 UFC Fans website" Lasalle college Winter 2020-->*/
+header li{
+    padding: 20px 40px;
+    margin: -20px 100px 10px 20px;
+    display:inline;
+    border: solid;
+    border-color: black;
+    border-radius: 16px;
+    background-color: lightblue;
+    font-family:Arial;
+    text-align: center;
+    font-weight: bold;
+    float: right;
+}
+header{
+	background-color: teal;
+	padding-top:30px;
+	min-height:70px;
+}
+#title {
+    background-color: teal;
+    font-family:Arial;
+	font-size: 30px;
+	text-align: center;
+    font-weight: bold;
+}
+body{
+    background-image: url(./imag/img1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover
+}
+#un{
+    text-align: left;
+}
+#pw{
+    text-align: left;
+}
+input{
+    width: 80%;
+    margin: 8px 0;
+    padding: 12px 20px;
+}
+#log{
+    font-family:Arial;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+    background-color:teal;
+    padding: 100px;
+    margin-bottom: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#logbtn{
+    background-color: tomato;
+    padding: 10px 50px;
+    border: solid;
+    border-color: black;
+    border-radius: 16px;
+    font-family:Arial;
+    text-align: center;
+    font-weight: bold;
+    width: 85%;
+    margin-top: 10px;
+}
+#intro{
+    background-color: cornflowerblue;
+	padding-top:30px;
+    min-height:70px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 50px;
+}
+.facebook{
+    position: fixed;
+    bottom: 20px;
+    right: 700px;
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.instagram{
+    position: fixed;
+    bottom: 20px;
+    right: 1100px;
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.youtube{
+    position: fixed;
+    bottom: 20px;
+    right: 900px;
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#playerpic{
+    float: left;
+    width: 20%;
+}
+#Player{
+    background-color: cornflowerblue;
+    float: left;
+    width: 20%;
+}
+#pic{
+    float: left;
+    width: 30%;
+    margin-left: 50px;
+}
+#pri{
+    background-color: cornsilk;
+    font-size: 60px;
+    text-align: center;
+    float:left;
+    width: 33%;
+}
+#but{
+    background-color: cadetblue;
+    font-size: 40px;
+    text-align: center;
+    border: solid;
+    border-radius: 16px;
+    float:left;
+    width: 33%;
+}
+#number{
+    background-color: rgb(180, 107, 38);
+    font-size: 40px;
+    border: solid;
+    border-radius: 16px;
+    float:left;
+    width: 33%;
+}
+#goinvoice{
+    background-color: rgb(180, 107, 38);
+    font-size: 40px;
+    border: solid;
+    border-radius: 16px;
+    width: 100%;
+    margin-top: 100px;
+}
+#purchase{
+    background-color: rgb(180, 107, 38);
+    font-size: 40px;
+    border: solid;
+    border-radius: 16px;
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 475px;
+    margin-right: auto;
+}
+.block{
+    margin-left:475px;
+	margin-bottom:30px;
+	margin-top:30px;
+	float: left;
+	width: 50%;
+	border: 1px solid black;
+    box-sizing:border-box;
+    background-color: teal;
+}
+#form{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+}
+#clear{
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+    border: solid;
+    width: 100%;
+}
+#pay{
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+    border: solid;
+    width: 100%;
+}
+#backinvoice{
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+    border: solid;
+    width: 100%;
+}

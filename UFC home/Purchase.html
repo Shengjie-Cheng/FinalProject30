@@ -1,0 +1,152 @@
+<!--by Yue Yin "WEB CLIENT DEVELOPMENT Final-project 30 UFC Fans website" Lasalle college Winter 2020-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./style2.css">
+    <script src="./js.js"></script>
+    <title>Payment</title>
+</head>
+<body>
+  
+<header id="title">
+    <p>Payment</p>
+</header>
+
+<div class="block">
+    <form id="form">
+        <table>
+            <th>
+                <label>Credit Card Info.</label>
+            </th>
+            <tr>
+                <div class="form group">
+                    <td>
+                        <label for="cardnumber">*Card Number:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="cardnumber" size="100" required>
+                    </td>
+                </div>
+            </tr>
+            <tr>
+                <div class="form group">
+                    <td>
+                        <label for="cvv">*CVV:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="cvv" required>
+                    </td>
+                <div>
+            </tr>
+            <tr>
+                <div class="form group">
+                    <td>
+                        <label for="namecard">*Name on the card:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="namecard" required>
+                    </td>
+                </div>
+            </tr>
+            <tr>
+                <div class="form group">
+                    <td>
+                        <label for="expiration">*Expiration Date:</label>
+                    </td>
+                    <td>
+                        <input type="date" id="expiration" required>
+                    </td>
+                </div>
+            </tr>
+        <th>
+            <label>Home Address</label>
+        </th>
+        <tr>
+            <div class="form group">
+                <td>
+                    <label for="customername">*Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="customername" size="100" required>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="form group">
+                <td>
+                    <label for="address">*Address:</label>
+                </td>
+                <td>
+                    <input type="text" id="address" size="100" required>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="form group">
+                <td>
+                    <label for="address2">Address Line2:</label>
+                </td>
+                <td>
+                    <input type="text" id="address2" size="100" >
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="form group">
+                <td>
+                    <label for="city">*City:</label>
+                </td>
+                <td>
+                    <input type="text" id="city" size="100" required>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="form group">
+                <td>
+                    <label for="code">*Postal Code:</label>
+                </td>
+                <td>
+                    <input type="text" id="code" size="100" required>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="form group">
+                <td>
+                    <label for="Province">*Province:</label>
+                </td>
+                <td>
+                    <input type="text" id="Province" size="100" required>
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div class="form group">
+                <td>
+                    <label for="country">Country:</label>
+                </td>
+                <td>
+                    <input type="text" id="country" size="100" required>
+                </td>
+            </div>
+        </tr>
+		<tr>
+                <div class="form group">
+                    <td>
+                        <label>Total Price:</label></br>
+                    </td>
+                    <td>
+                        <input type="number" readonly>
+                    </td>
+                </div>
+        </tr>
+    </table>
+    <button id="clear" type="button" onclick="reset()">Clear</button></br>
+    <button id="pay" type="submit" onclick="payment()">Payment</button></br>
+    <button id="backinvoice" type="button"><a href="Invoice.html">Go Back To Invoice</a></button>
+</form>
+</div>
+</html>
